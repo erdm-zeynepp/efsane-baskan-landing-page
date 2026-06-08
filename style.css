@@ -92,8 +92,28 @@ background:#161b22;
 
 @media(max-width:768px){
 
+.hero{
+padding:20px;
+height:auto;
+min-height:100vh;
+}
+
+.overlay{
+padding:20px;
+}
+
 h1{
-font-size:2rem;
+font-size:1.8rem;
+line-height:1.2;
+}
+
+.overlay p{
+font-size:1rem;
+}
+
+button{
+width:100%;
+max-width:300px;
 }
 
 .steps{
